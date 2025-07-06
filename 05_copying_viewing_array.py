@@ -10,15 +10,15 @@ myArr = np.array([1, 2, 3, 4])
 
 print("\n======================= COPYING ARRAY =======================")
 
-copyArr = myArr.copy()
-print("\nOriginal Array:\n", myArr)
-print("\nCopied Array:\n", copyArr)
+# copyArr = myArr.copy()
+# print("\nOriginal Array:\n", myArr)
+# print("\nCopied Array:\n", copyArr)
 
-print("\nBoth array' state after modification:")
+# print("\nBoth array' state after modification:")
 
-copyArr[0] = 10
-print("\nOriginal Array:\n", myArr)
-print("\nCopied Array:\n", copyArr)
+# copyArr[0] = 10
+# print("\nOriginal Array:\n", myArr)
+# print("\nCopied Array:\n", copyArr)
 
 # -----------------------------------------------
 # Using .view() creates a new array object that **shares the same data** as the original.
@@ -29,13 +29,12 @@ print("\nCopied Array:\n", copyArr)
 
 print("\n======================= VIEWING ARRAY =======================")
 
+# viewArr = myArr.view()
+# print("\nOriginal Array:\n", myArr)
+# print("\nViewed Array:\n", viewArr)
 
-viewArr = myArr.view()
-print("\nOriginal Array:\n", myArr)
-print("\nViewed Array:\n", viewArr)
+# print("\nBoth array' state after modification:")
 
-print("\nBoth array' state after modification:")
-
-viewArr[0] = 10
-print("\nOriginal Array:\n", myArr)
-print("\nViewed Array:\n", viewArr)
+# viewArr[0] = 10
+# print("\nOriginal Array:\n", myArr)
+# print("\nViewed Array:\n", viewArr)

@@ -65,3 +65,5 @@ import numpy as np
 # range_array = np.arange(1, 11, 2)  # 11 is excluded
 # print("\nArray with range from 1 to 10 (step=2):")
 # print(range_array)
+
+# Fun fact: np.arange means 'a range', not 'arrange'
