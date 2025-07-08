@@ -1,0 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(1, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y, label='Sin(x)')
+plt.xlabel('x')
+plt.ylabel('Sin(x)')
+plt.title('Sine Wave')
+plt.legend()
+plt.show()
