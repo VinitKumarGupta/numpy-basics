@@ -35,7 +35,7 @@ From array creation and manipulation to advanced linear algebra and performance 
 | `15_advanced_indexing.py` | Advanced Indexing | Demonstrating Boolean Indexing and Fancy Indexing. |
 | `16_optimization.py` & `17_optimExamples.py` | Performance Comparison | Benchmarking the speed difference between Python loops and vectorized NumPy operations. |
 | `18_numpy_with_pandas.py` | NumPy & Pandas | How to seamlessly convert NumPy arrays to Pandas DataFrames and vice versa. |
-| `19_numpy_with_matplotlib` | NumPy & Matplotlib | Creating visualizations (e.g., a Sine Wave plot) using NumPy data. |
+| `19_numpy_with_matplotlib.py` | NumPy & Matplotlib | Creating visualizations (e.g., a Sine Wave plot) using NumPy data. |
 
 ## Why NumPy is SO FAST
 
