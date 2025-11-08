@@ -1,4 +1,4 @@
-# 🚀 NumPy Basics: A Hands-On Tutorial
+# NumPy Basics: A Hands-On Tutorial
 
 **Author:** Vinit Kumar Gupta
 
@@ -8,13 +8,13 @@
 [![Library](https://img.shields.io/badge/Library-NumPy-013243.svg?style=for-the-badge&logo=numpy)](https://numpy.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## ✨ Overview
+## Overview
 
 This repository is a collection of simple, yet complete, Python scripts designed to introduce and demonstrate the core functionalities of the NumPy library. Each file focuses on a specific topic, making it easy to learn the fundamental building blocks for numerical computing and data science in Python.
 
 From array creation and manipulation to advanced linear algebra and performance optimization, this guide covers everything you need to start using NumPy effectively.
 
-## 📚 Table of Contents
+## Table of Contents
 
 | File | Topic | Description |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ From array creation and manipulation to advanced linear algebra and performance 
 | `18_numpy_with_pandas.py` | NumPy & Pandas | How to seamlessly convert NumPy arrays to Pandas DataFrames and vice versa. |
 | `19_numpy_with_matplotlib` | NumPy & Matplotlib | Creating visualizations (e.g., a Sine Wave plot) using NumPy data. |
 
-## ⚡ Why NumPy is SO FAST (The Animation)
+## Why NumPy is SO FAST
 
 This is the secret sauce of NumPy, why it crushes standard Python loops:
 
@@ -60,13 +60,13 @@ result[2] = arr1[2] + arr2[2]  # 🐢
 
 # NumPy (Parallel/SIMD Execution)
 # All additions happen almost simultaneously in native code.
-# 🚀 [a0+b0, a1+b1, a2+b2, ...] 🚀 
+# [a0+b0, a1+b1, a2+b2, ...] 🚀 
 result = arr1 + arr2
 ````
 
 For a detailed breakdown of **Wall Time**, **CPU Time**, and the technical reasons behind NumPy's speed, read the **[BONUS.md]** file.
 
-## 🛠️ Requirements
+## Requirements
 
 To run the scripts in this repository, you only need Python and the packages listed in `requirements.txt`:
 
@@ -89,4 +89,4 @@ To run the scripts in this repository, you only need Python and the packages lis
     python 07_statistical_operations.py
     ```
 
-Happy Coding\! 📊
+Happy Coding\!
