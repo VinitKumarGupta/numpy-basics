@@ -73,7 +73,7 @@ To run the scripts in this repository, you only need Python and the packages lis
 1.  **Clone the repository:**
 
     ```bash
-    git clone [YOUR_REPO_URL_HERE]
+    git clone https://github.com/VinitKumarGupta/numpy-basics.git
     cd numpy-basics
     ```
 
